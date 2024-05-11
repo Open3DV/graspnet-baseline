@@ -45,7 +45,10 @@ Compile and install knn operator (code adapted from [pytorch_knn_cuda](https://g
 cd knn
 python setup.py install
 ```
-Install graspnetAPI for evaluation.
+
+~~Install graspnetAPI for evaluation.~~
+> The `graspnetAPI` repo has been moved into root directory, we can use it directly.
+
 ```bash
 git clone https://github.com/graspnet/graspnetAPI.git
 cd graspnetAPI
